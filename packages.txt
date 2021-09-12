@@ -1,0 +1,6 @@
+vim 
+golang
+zsh
+fzf
+curl
+python3
