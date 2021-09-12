@@ -1,0 +1,52 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'fatih/vim-go', { 'tag': '*' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+Plug 'lotabout/skim', { 'dir': '~/.skim', 'do': './install' }
+
+call plug#end()
+set tabstop=4
+set shiftwidth=4
+
+set ai
+
+set showmatch
+set hlsearch
+set incsearch
+set ignorecase
+set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
+
+set noswapfile
+
+set clipboard=unnamedplus
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+set smarttab
+set number
+set ruler
+syntax off
+set mouse=a
+
+let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+nnoremap <C-l> :tabprevious<CR>
+nnoremap <C-S-l> :tabnext<CR>
+nnoremap <C-n> :tabnew<CR>
+nnoremap <C-c> :tabclose<CR>
+
+nnoremap <C-p> :SK <Cr>
+
+set term=screen-256color
+let loaded_matchparen = 1
+set autoindent
+set nobackup
+set noswapfile
+set encoding=utf-8
+
+set t_Co=256
