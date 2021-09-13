@@ -102,4 +102,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/home/sssx3/.cargo/bin:$PATH"
 
 alias c=cargo
+alias vfz='vim $(fzf)'
+alias vsk='vim $(sk)'
 alias p3=python3

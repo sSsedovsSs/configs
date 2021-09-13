@@ -4,6 +4,8 @@ Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'godlygeek/tabular'
+Plug 'ciaranm/securemodelines'
 
 Plug 'lotabout/skim', { 'dir': '~/.skim', 'do': './install' }
 
@@ -50,3 +52,4 @@ set noswapfile
 set encoding=utf-8
 
 set t_Co=256
+set relativenumber
